@@ -1,0 +1,8 @@
+<span class="text-danger">{{errorMessage}} </span>
+<h1> Articles </h1>
+<table class="table-responsive">
+        <tr class="row" *ngFor="let article of articles">
+                <td class="col-md-5"> <h5> <a [routerLink]="article.articleRoutePath">{{article.articleName}} </a></h5> </td>
+                <td class="col-md-5"> <h5> <a [routerLink]="article.articleRoutePath">{{article.articleName}} </a></h5> </td>
+        </tr>
+</table>

@@ -1,0 +1,20 @@
+h5{
+    text-transform: capitalize;
+    padding: 10px;
+    text-indent: 15px;
+}
+h1{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.heading{
+    font-size:35px;
+    text-transform: capitalize;
+}
+.sub-headin{
+    font-size: 20px;
+    text-transform:capitalize;
+}
+.file{
+    
+}

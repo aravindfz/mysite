@@ -1,0 +1,16 @@
+[
+    {
+        "articleId": 1,
+        "articleName": "Setting up Portable Node and Npm",
+        "articleCategory": "angular2",
+        "articleRoutePath": "portablenodenpm",
+        "createdDateTime": "/1486923538717"
+    },
+    {
+        "articleId": 2,
+        "articleName": "Setting up Angular2 Testing",
+        "articleCategory": "angular2",
+        "articleRoutePath": "angular-2-testing",
+        "createdDateTime": "/1486923538717"  
+    }
+]

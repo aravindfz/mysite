@@ -1,0 +1,62 @@
+.about-me  .aravind-name{
+    font-size: 50px;
+    color: cornflowerblue;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.about-me .aravind-name span{
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.about-me .row .fa{
+    font-size: 30px;
+    color :#5b168e;
+}
+
+.designation{
+    color: red;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.degree{
+     font-weight: 900;
+     padding-left: 100px;
+}
+.about-me .row:nth-child(4){
+    text-align: justify;
+}
+.group{
+    padding-top: 10px;
+    border-bottom: 3px solid #cf9c63;   
+}
+.group span{
+    font-style: italic;
+    font-weight: 900;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+hr{
+    border-bottom: 3px solid #cf9c63;      
+}
+.profile{
+    text-align: left !important;
+
+}
+.about-me  .img-circle{
+   width: 250px;
+   height:250px; 
+}
+.about-me .profile-image{
+    text-align: center;
+}
+.about-me .title-text{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.btn:before {
+    content: none;
+}
+.btn{
+    text-align: center;
+}   

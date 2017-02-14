@@ -1,0 +1,78 @@
+<form class="form-horizontal">
+<fieldset>
+
+<!-- Form Name -->
+<legend>Form Name</legend>
+
+<!-- Select Category -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="selectbasic">What's your Category</label>
+  <div class="col-md-4">
+    <select id="selectbasic" name="selectbasic" class="form-control">
+      <option value="Dev - Office">Dev - Office</option>
+      <option value="Dev - Personal">Dev - Personal</option>
+      <option value="Call someone">Call someone</option>
+      <option value="Mail someone">Mail someone</option>
+      <option value="Bank work">Bank work</option>
+    </select>
+  </div>
+</div>
+
+<!-- Task -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">What's your Task</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="textinput" type="text" placeholder="Task..." class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Frequency Radios -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="radios">Frequency</label>
+  <div class="col-md-4">
+  <div class="radio">
+    <label for="radios-0">
+      <input type="radio" name="radios" id="radios-0" value="Once" checked="checked">
+      Once
+    </label>
+	</div>
+  <div class="radio">
+    <label for="radios-1">
+      <input type="radio" name="radios" id="radios-1" value="Repetitive">
+      Repetitive
+    </label>
+	</div>
+  </div>
+</div>
+
+<!-- Start Date-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Start Date</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="textinput" type="date" placeholder="Start Date" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- End Date-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">End Date</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="textinput" type="date" placeholder="End Date" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Button Events -->
+<div class="form-group">
+  <div class="col-md-offset-4 col-md-2">
+    <button id="btnSubmit" name="btnSubmit" class="btn btn-primary">Submit</button>
+    </div>
+  <div class="col-md-offset-1">
+    <button id="btnCancel" name="btnCancel" class="btn btn-warning">Cancel</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
